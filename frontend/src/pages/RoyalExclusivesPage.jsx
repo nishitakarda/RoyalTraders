@@ -60,7 +60,7 @@ export default function RoyalExclusivesPage() {
                 <img
                   src={product.image[0]}
                   alt={product.name}
-                  className="w-full h-[600px] object-cover"
+                  className="w-full h-[250px] sm:h-[300px] md:h-[350px] lg:h-[400px] xl:h-[600px] object-cover"
                 />
               ) : (
                 <div className="w-full h-[600px] bg-gray-200 flex items-center justify-center">
